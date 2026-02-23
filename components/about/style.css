@@ -1,0 +1,245 @@
+.about {
+  background: var(--color-bg-white);
+  padding-top: 86px;
+  min-height: 100vh;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 60px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.about-title h2 {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  color: var(--color-text-primary);
+  margin-bottom: 10px;
+}
+
+.about-title p {
+  font-family: var(--font-secondary);
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 280px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.about-text h3 {
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  color: var(--color-text-primary);
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.about-text p {
+  font-family: var(--font-secondary);
+  font-size: 1.05rem;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+
+.about-list {
+  margin: 15px 0 20px 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.about-list li {
+  font-family: var(--font-secondary);
+  font-size: 1.05rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
+.about-cards {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.about-card {
+  background: var(--color-bg-white);
+  padding: 28px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+  transition: .3s;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+}
+
+.about-card span {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.about-card h4 {
+  font-family: var(--font-primary);
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.about-card p {
+  font-family: var(--font-secondary);
+  color: var(--color-text-secondary);
+  font-size: .95rem;
+}
+
+
+.approach {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.approach-title {
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.approach-text {
+  max-width: 720px;
+  margin: auto;
+  margin-bottom: 40px;
+  color: var(--color-text-secondary);
+  font-family: var(--font-secondary);
+  line-height: 1.7;
+}
+
+.approach-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 25px;
+}
+
+.approach-card {
+  background: var(--color-bg-white);
+  padding: 26px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: .3s;
+}
+
+.approach-card:hover {
+  transform: translateY(-6px);
+}
+
+.approach-card span {
+  font-size: 26px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.approach-card h4 {
+  font-family: var(--font-primary);
+  margin-bottom: 8px;
+}
+
+.approach-card p {
+  font-family: var(--font-secondary);
+  color: var(--color-text-secondary);
+  font-size: .95rem;
+}
+
+.therapy-example {
+  margin-top: 80px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.therapy-example h3 {
+  font-family: var(--font-primary);
+  margin-bottom: 10px;
+}
+
+.therapy-example p {
+  font-family: var(--font-secondary);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.therapy-quote {
+  background: var(--color-primary-light);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-style: italic;
+  font-family: var(--font-secondary);
+}
+
+@media (max-width: 1000px) {
+
+  .about-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-image img {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+
+  .about-title h2 {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .approach-title {
+    font-size: 1.6rem;
+  }
+
+  .about-text h3 {
+    font-size: 1.2rem;
+  }
+
+}

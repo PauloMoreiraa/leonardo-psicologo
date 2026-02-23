@@ -41,6 +41,7 @@
   font-family: var(--font-primary);
   font-weight: 600;
   font-size: 1.8rem;
+  z-index: 999;
 }
 
 .nav-list {

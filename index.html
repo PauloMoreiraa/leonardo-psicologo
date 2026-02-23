@@ -3,11 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Leonardo Maia | Psicólogo</title>
     <meta
       name="description"
       content="Leonardo Maia - Psicólogo. Atendimento humanizado e ético, focado no bem-estar emocional e psicológico. Agende sua consulta online ou presencial."
     />
+    <meta property="og:title" content="Leonardo Maia - Psicólogo" />
+    <meta
+      property="og:description"
+      content="Atendimento humanizado e ético, focado no bem-estar emocional e psicológico."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favico/site.webmanifest" />
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="stylesheet" href="./components/main.css" />
     <link
       rel="stylesheet"
@@ -33,13 +61,18 @@
           <ul class="nav-list">
             <li><a href="#inicio">Início</a></li>
             <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#sobre">Quem sou eu</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
             <li><a href="#perguntas">Perguntas frequentes</a></li>
             <li><a href="#contato">Contato</a></li>
             <li>
-              <a href="#contato" class="btn-cta"
-                ><i class="fa-solid fa-calendar-check"></i>Agendar consulta</a
+              <a
+                href="https://wa.me/5511968548204"
+                class="btn-cta"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <i class="fa-solid fa-calendar-check"></i>Agendar consulta
+              </a>
             </li>
           </ul>
         </nav>
@@ -53,7 +86,8 @@
           <p class="hero-role">Psicólogo clínico</p>
           <p class="hero-crp">CRP 06/198672</p>
           <p class="hero-description">
-            Apoio profissional em um espaço ético e acolhedor para ajudar você a superar desafios emocionais e reencontrar seu equilíbrio.
+            Apoio profissional em um espaço ético e acolhedor para ajudar você a
+            superar desafios emocionais e reencontrar seu equilíbrio.
           </p>
 
           <div class="hero-buttons">
@@ -79,7 +113,6 @@
 
     <section id="servicos" class="section services">
       <div class="services-container">
-        <!-- Título da seção -->
         <div class="services-title" animation="fadeInUp">
           <h2>Serviços</h2>
           <p>
@@ -87,44 +120,283 @@
           </p>
         </div>
 
-        <!-- Cards de serviço -->
-        <article
-          class="service-card"
-          animation="fadeInUp"
-          style="animation-delay: 0.2s"
-        >
-          <img
-            src="./assets/solo.png"
-            alt="Terapia individual com psicólogo"
-          />
-          <h3>Terapia Individual</h3>
-          <p>
-            Atendimento personalizado para acompanhamento psicológico, focando
-            no desenvolvimento emocional e resolução de conflitos internos.
-          </p>
-        </article>
-
-        <article
-          class="service-card"
-          animation="fadeInUp"
-          style="animation-delay: 0.4s"
-        >
-          <img
-            src="./assets/casal.png"
-            alt="Terapia de casal com psicólogo"
-          />
-          <h3>Terapia de Casal</h3>
-          <p>
-            Espaço seguro para casais trabalharem comunicação, intimidade e
-            resolução de conflitos, fortalecendo a relação de maneira saudável.
-          </p>
-        </article>
+        <div class="services-cards">
+          <article class="service-card" animation="fadeInUp">
+            <img
+              src="./assets/solo.jpg"
+              alt="Terapia individual com psicólogo"
+            />
+            <h3>Psicoterapia Individual</h3>
+            <p>
+              A psicoterapia é um processo de cuidado emocional conduzido por um
+              psicólogo, oferecendo um espaço seguro e sigiloso para falar sobre
+              sentimentos, pensamentos e desafios da vida. Mais do que
+              desabafar, ajuda a entender padrões de comportamento, desenvolver
+              inteligência emocional, melhorar relacionamentos, controlar
+              ansiedade e estresse, fortalecer a autoestima e tomar decisões com
+              mais clareza.
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="sobre" class="section">Quem sou eu</section>
-    <section id="perguntas" class="section">Perguntas frequentes</section>
-    <section id="contato" class="section">Contato</section>
+    <section id="sobre" class="section about">
+      <div class="about-container">
+        <div class="about-title">
+          <h2>Sobre mim</h2>
+          <p>
+            Minha trajetória na psicologia e a abordagem que guia meu trabalho
+            clínico.
+          </p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="./assets/perfil.png"
+              alt="Psicólogo Leonardo Maia"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="about-text">
+            <h3>Prazer, sou Leonardo Maia 👋</h3>
+
+            <p>
+              Sou psicólogo formado pela Universidade Paulista (UNIP), com
+              especialização em Saúde Pública e Psicologia Organizacional. Meu
+              trabalho é baseado em uma escuta ética, acolhedora e respeitosa
+              com a história de cada pessoa.
+            </p>
+
+            <p>
+              Atendo jovens e adultos em atendimentos online, oferecendo um
+              espaço seguro para falar sobre emoções, relações, dificuldades e
+              momentos importantes da vida.
+            </p>
+
+            <p>
+              Minha prática clínica é orientada pela
+              <strong>psicologia fenomenológica</strong>, uma abordagem que
+              busca compreender a experiência da pessoa exatamente como ela é
+              vivida, sem julgamentos e sem rótulos prontos.
+            </p>
+          </div>
+        </div>
+
+        <div class="approach">
+          <h3 class="approach-title">🧠 O que é Fenomenologia?</h3>
+
+          <p class="approach-text">
+            A fenomenologia é uma corrente filosófica criada por Edmund Husserl
+            e posteriormente desenvolvida por autores como Martin Heidegger. Ela
+            propõe compreender as emoções, pensamentos e experiências a partir
+            da perspectiva de quem está vivendo aquilo.
+          </p>
+
+          <div class="approach-cards">
+            <div class="approach-card">
+              <span>👂</span>
+              <h4>Escuta profunda</h4>
+              <p>
+                Um espaço onde sua experiência é realmente ouvida e respeitada.
+              </p>
+            </div>
+
+            <div class="approach-card">
+              <span>🚫</span>
+              <h4>Sem rótulos</h4>
+              <p>A pessoa não é reduzida a um diagnóstico ou classificação.</p>
+            </div>
+
+            <div class="approach-card">
+              <span>🔎</span>
+              <h4>Busca de significado</h4>
+              <p>Compreender o que cada experiência representa para você.</p>
+            </div>
+
+            <div class="approach-card">
+              <span>🌱</span>
+              <h4>Autoconhecimento</h4>
+              <p>Maior consciência sobre si mesmo e sua forma de viver.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="therapy-example">
+          <h3>🌿 Como funciona na prática</h3>
+
+          <p>Se uma pessoa chega na terapia dizendo:</p>
+
+          <div class="therapy-quote">“Eu sinto um vazio.”</div>
+
+          <p>
+            Em vez de explicar rapidamente com uma teoria ou diagnóstico, a
+            psicoterapia fenomenológica busca compreender essa experiência:
+          </p>
+
+          <ul class="about-list">
+            <li>Como é esse vazio?</li>
+            <li>Quando ele aparece?</li>
+            <li>O que ele representa para você?</li>
+            <li>Como isso impacta sua vida?</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="perguntas" class="section faq">
+      <div class="faq-container">
+        <div class="faq-title">
+          <h2>Perguntas frequentes</h2>
+          <p>Dúvidas comuns sobre o atendimento psicológico.</p>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item">
+            <button class="faq-question">
+              O que é psicoterapia?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                A psicoterapia é um processo de cuidado emocional conduzido por
+                um psicólogo. É um espaço seguro e sigiloso para conversar sobre
+                sentimentos, pensamentos, dificuldades e situações da vida.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question">
+              Como funciona a primeira consulta?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Na primeira sessão conversamos sobre sua história, o que motivou
+                a busca por terapia e quais são suas necessidades. Esse momento
+                ajuda a compreender melhor como posso ajudar no seu processo.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question">
+              As consultas são online ou presenciais?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Os atendimentos são realizados 100% online, por meio de
+                videochamada, garantindo praticidade, privacidade e conforto
+                para que você possa participar das sessões de qualquer lugar.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question">
+              Quanto tempo dura uma sessão?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Cada sessão tem duração média de 50 minutos. A frequência
+                geralmente é semanal, mas pode variar de acordo com cada caso.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question">
+              Psicoterapia é confidencial?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Sim. O atendimento psicológico segue princípios éticos e todo o
+                conteúdo das sessões é protegido pelo sigilo profissional.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div class="contact-container">
+        <div class="contact-title">
+          <h2>Contato</h2>
+          <p>Entre em contato para tirar dúvidas ou agendar sua consulta.</p>
+        </div>
+
+        <div class="contact-box">
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h3>Telefone</h3>
+              <a href="tel:+5511968548204">(11) 96854-8204</a>
+            </div>
+          </div>
+
+          <div class="contact-divider"></div>
+
+          <div class="contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h3>WhatsApp</h3>
+              <a href="https://wa.me/5511968548204" target="_blank">
+                Enviar mensagem
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-divider"></div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:leonardo.santosmaiac@gmail.com">
+                leonardo.santosmaiac@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-divider"></div>
+
+          <div class="contact-item">
+            <i class="fa-brands fa-instagram"></i>
+            <div>
+              <h3>Instagram</h3>
+              <a
+                href="https://www.instagram.com/leonardomaia.psi/"
+                target="_blank"
+              >
+                @leonardomaia.psi
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-divider"></div>
+
+          <div class="contact-item">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <a
+                href="https://www.linkedin.com/in/leonardo-maia-3b2011184/"
+                target="_blank"
+              >
+                Leonardo Maia
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <a
       href="https://wa.me/5511968548204"
@@ -149,7 +421,7 @@
 
         <nav class="footer-social" aria-label="Redes sociais">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/leonardo-maia-3b2011184/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -158,7 +430,7 @@
           </a>
 
           <a
-            href="#"
+            href="https://www.instagram.com/leonardomaia.psi/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -167,7 +439,7 @@
           </a>
 
           <a
-            href="#"
+            href="https://wa.me/5511968548204"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
@@ -183,5 +455,6 @@
     </footer>
 
     <script src="./components/menu/menu.js" defer></script>
+    <script src="./components/questions/questions.js" defer></script>
   </body>
 </html>

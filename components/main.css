@@ -2,5 +2,8 @@
 @import url('./menu/style.css');
 @import url('./home/style.css');
 @import url('./services/style.css');
+@import url('./about/style.css');
+@import url('./questions/style.css');
+@import url('./contact/style.css');
 @import url('./whatsapp/style.css');
 @import url('./footer/style.css')
