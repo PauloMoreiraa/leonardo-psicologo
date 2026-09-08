@@ -218,16 +218,18 @@ export default function Sobre() {
               "
             >
               <p>
-                Sou psicólogo formado pela Universidade Paulista (UNIP), com
-                especialização em Saúde Pública e Psicologia Organizacional.
-                Meu trabalho é construído a partir de uma escuta ética,
-                acolhedora e respeitosa com a história de cada pessoa.
+                Sou bacharel em Psicologia, com especialização em Saúde Pública
+                e Psicologia Organizacional. Meu trabalho é baseado em uma
+                escuta ética, acolhedora e individualizada, respeitando a
+                história, as necessidades e o momento de vida de cada pessoa.
               </p>
 
               <p>
                 Atendo jovens e adultos de forma online, oferecendo um espaço
-                seguro para falar sobre emoções, relacionamentos, dificuldades
-                e diferentes momentos da vida.
+                seguro e acolhedor para falar sobre emoções, relacionamentos,
+                dificuldades, conflitos e diferentes desafios da vida. Meu
+                objetivo é proporcionar um ambiente de confiança, onde você
+                possa se expressar com liberdade e ser ouvido sem julgamentos.
               </p>
 
               <p>
@@ -299,8 +301,8 @@ export default function Sobre() {
               A fenomenologia é uma corrente filosófica iniciada por Edmund
               Husserl e posteriormente desenvolvida por pensadores como Martin
               Heidegger. Na psicologia, essa perspectiva busca compreender a
-              experiência a partir do ponto de vista de quem a vive,
-              valorizando seus sentidos e significados.
+              experiência a partir do ponto de vista de quem a vive, valorizando
+              seus sentidos e significados.
             </p>
           </div>
 
@@ -461,9 +463,8 @@ export default function Sobre() {
                 dark:text-slate-300
               "
             >
-              A terapia é um espaço para olhar com mais atenção para aquilo
-              que você está vivendo e construir novos sentidos para sua
-              experiência.
+              A terapia é um espaço para olhar com mais atenção para aquilo que
+              você está vivendo e construir novos sentidos para sua experiência.
             </p>
           </div>
 
